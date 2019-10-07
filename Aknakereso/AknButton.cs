@@ -12,6 +12,7 @@ namespace Aknakereso
         public int X { get; set; }
 
         public int Y { get; set; }
+        public bool Flag { get; set; } = false;
 
         public bool Akna { get; set; }
     }
